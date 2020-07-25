@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./img/background.jpg);
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  height: 550px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.wrapper {
+  width: 85%;
+  margin: auto;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.line {
+  border: 1px solid lightblue;
+}
+
+h1 {
+  color: rgb(39, 117, 219);
+  font-weight: 900;
+  font-size: 300%;
+}
+
+h4 {
+  color: rgb(187, 187, 187);
+  font-weight: 400;
+}
+
+.flight-information {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: space-around;
+}
+
+.card-title {
+  color: rgb(187, 187, 187);
+}
+
+.card-info {
+  text-align: center;
+  font-weight: 700;
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pass-info-card {
+  margin-bottom: 35px;
+}
+
+.pass-info-title {
+  color: rgb(187, 187, 187);
+}
+
+.pass-info-text {
+  font-weight: 700;
+}
